@@ -3,7 +3,7 @@ name: backup to onedrive
 on:
   push:
     branches:
-      - master
+      - main
   schedule:
     - cron: 0 22 1/2 * *
   watch:
